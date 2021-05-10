@@ -6,5 +6,5 @@ _DIR=$(dirname $(realpath "$0"))
 
 cd $_DIR
 
-deno run --allow-read --allow-env --unstable deno/test.ts
+deno run --allow-read --allow-env --unstable test/test.ts
 
